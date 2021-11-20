@@ -11,7 +11,9 @@
 .item1{
 grid-area: header;
 padding: 3em;
-background: gray;
+background-color: gray;
+animation-name: title;
+animation-duration: 20s;
 }
 @media only screen and (max-width: 500px){
     .item1{
@@ -50,3 +52,15 @@ grid-area: awards;
 padding: 3em;
 background: gray;
 }
+
+@keyframes title {
+0% {background-color: gray;}
+10% {background-color: red;}
+20% {background-color: blue;}
+30% {background-color: green;}
+50% {background-color: gray;}
+70% {background-color: red;}
+80% {background-color: blue;}
+100% {background-color: green;}
+}
+
