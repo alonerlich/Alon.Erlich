@@ -1,3 +1,8 @@
+body {
+    font-family: Helvetica, Arial
+    background-color: #d8da3d
+}
+
 .container{
  display: grid;
  width: 100%;
@@ -5,7 +10,8 @@
  "header header header header header header"
  "contact contact education education education education"
  "programmingTools programmingTools education education education education"
- "Languages Languages awards awards awards awards";
+ "Languages Languages awards awards awards awards"
+ "Contact Contact Contact Contact linkedin linkedin";
  }
 
 .item1{
@@ -52,6 +58,27 @@ grid-area: awards;
 padding: 3em;
 background: gray;
 }
+.item7{
+text-align: center;
+grid-area: Contact;
+padding: 3em;
+background: blue;
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+
+}
+
+.item8  {
+grid-area: linkedin;
+padding: 3em;
+background: blue;
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+
+}
+
 
 @keyframes title {
 0% {background-color: gray;}
