@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <title>form for you</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='../static/css/style.css') }}">
 </head>
 <body>
+    {% include "header.html" %}
     <h1>Sign Up</h1>
     <form class = "center">
         <label for="fname">First name:</label><br>
